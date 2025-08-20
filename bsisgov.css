@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #0ea5a4;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* News Card */
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.news-list h2 {
+    margin-bottom: 1rem;
+    color: #0ea5a4;
+}
+
+.news-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-content {
+    padding: 1rem;
+}
+
+.news-content h3 a {
+    color: #0ea5a4;
+    text-decoration: none;
+}
+
+.news-content h3 a:hover {
+    text-decoration: underline;
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.social-share {
+    margin-top: 0.5rem;
+}
+
+.social-share a {
+    color: #0ea5a4;
+    text-decoration: none;
+}
+
+.social-share a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section, .contact-section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.about-section img,
+.contact-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* Contact Form */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-section button {
+    padding: 0.8rem;
+    border: none;
+    background-color: #0ea5a4;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #0c8c8b;
+}
+
+/* Footer */
+footer {
+    background-color: #0c8c8b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
